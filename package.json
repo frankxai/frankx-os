@@ -1,0 +1,33 @@
+{
+  "name": "frankx-os",
+  "version": "1.0.0",
+  "description": "Centralized project management for FrankX, Arcanea, and related projects",
+  "main": "index.json",
+  "scripts": {
+    "sync": "node scripts/sync-github-repos.js",
+    "sync:dry": "node scripts/sync-github-repos.js --dry-run",
+    "sync:org": "node scripts/sync-github-repos.js --org=frankxai"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankxai/frankx-os"
+  },
+  "author": "Frank",
+  "license": "MIT",
+  "index": {
+    "organizations": 4,
+    "repos": 120,
+    "projects": 7,
+    "sprints": 1,
+    "products": 3
+  },
+  "files": {
+    "projects": "projects/*.yaml",
+    "roadmaps": "projects/*-roadmap.md",
+    "repos": "repos/index.yaml",
+    "relationships": "repos/relationships.json",
+    "sprints": "sprints/*.md",
+    "planning": "planning/*.md"
+  }
+}

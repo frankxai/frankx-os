@@ -1,0 +1,40 @@
+name: FrankX AI
+description: AI-powered personal brand and content platform
+
+brand:
+  name: FrankX
+  tagline: "AI-powered creation for modern creators"
+  colors:
+    primary: "#0ea5e9"  # Sky blue
+    secondary: "#06b6d4"  # Cyan
+
+repos:
+  - name: frankx
+    url: https://github.com/frankxai/frankx
+    type: monorepo
+    tech: [Next.js, React, TypeScript]
+    status: active
+    description: Main FrankX platform
+
+  - name: frankx.ai-vercel-website
+    url: https://github.com/frankxai/frankx.ai-vercel-website
+    type: website
+    tech: [Next.js, Vercel]
+    status: active
+
+  - name: oracle-work
+    url: https://github.com/frankxai/oracle-work
+    type: content
+    tech: [HTML, AI]
+    status: active
+
+  - name: agentic-creator-os
+    url: https://github.com/frankxai/agentic-creator-os
+    type: documentation
+    status: active
+    description: Agentic Creator OS documentation
+
+status:
+  stage: production
+  launched: true
+  url: https://frankx.ai

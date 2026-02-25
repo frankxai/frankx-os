@@ -1,0 +1,18 @@
+marketplaces:
+  - name: npm
+    url: https://npmjs.com
+    packages:
+      - nanobanana-mcp-server
+      
+  - name: vercel
+    url: https://vercel.com
+    projects:
+      - frankx.ai-vercel-website
+      
+  - name: github
+    url: https://github.com/frankxai
+    description: All open source repos
+    
+  - name: claude-code-skills
+    description: Claude Code skills marketplace
+    status: planned

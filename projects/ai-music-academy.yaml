@@ -1,0 +1,14 @@
+name: AI Music Academy
+description: AI-powered music production education and tools
+
+repos:
+  - name: ai-music-academy
+    url: https://github.com/frankxai/ai-music-academy
+    type: education
+    status: planned
+    description: Transformative soundscapes and music production education
+
+content:
+  - name: Suno AI Mastery
+    description: Expert prompt engineering for professional music creation
+    status: active

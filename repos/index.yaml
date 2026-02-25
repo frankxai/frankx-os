@@ -1,0 +1,438 @@
+repos:
+  # ============================================================================
+  # FRANKXAI ORGANIZATION - https://github.com/frankxai
+  # ============================================================================
+  
+  # Core Platforms
+  - org: frankxai
+    name: arcanea
+    url: https://github.com/frankxai/arcanea
+    tags: [core, monorepo, nextjs, ai-platform, creative]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-platform
+    url: https://github.com/frankxai/arcanea-platform
+    tags: [core, platform, nextjs, react-native]
+    status: active
+    visibility: private
+    
+  - org: frankxai
+    name: arcanea-mobile
+    url: https://github.com/frankxai/arcanea-mobile
+    tags: [mobile, react-native]
+    status: active
+
+  # AI Agents & Orchestration
+  - org: frankxai
+    name: Starlight-Intelligence-System
+    url: https://github.com/frankxai/Starlight-Intelligence-System
+    tags: [ai-agents, orchestration, memory, context]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-onchain
+    url: https://github.com/frankxai/arcanea-onchain
+    tags: [blockchain, web3, nft, solana, elizaos]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-intelligence-os
+    url: https://github.com/frankxai/arcanea-intelligence-os
+    tags: [ai-agents, orchestration, luminor]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-core
+    url: https://github.com/frankxai/arcanea-core
+    tags: [ai-agents, core, open-source]
+    status: active
+
+  # Claude Code & Tooling
+  - org: frankxai
+    name: agentic-creator-os
+    url: https://github.com/frankxai/agentic-creator-os
+    tags: [claude-code, tooling, agentic]
+    status: active
+    
+  - org: frankxai
+    name: claude-complete
+    url: https://github.com/frankxai/claude-complete
+    tags: [claude-code, setup, ecosystem]
+    status: active
+    
+  - org: frankxai
+    name: claude-infrastructure
+    url: https://github.com/frankxai/claude-infrastructure
+    tags: [claude-code, devops, kubernetes, security]
+    status: active
+    
+  - org: frankxai
+    name: claude-skills-library
+    url: https://github.com/frankxai/claude-skills-library
+    tags: [claude-code, skills, library]
+    status: active
+    
+  - org: frankxai
+    name: claude-code-config
+    url: https://github.com/frankxai/claude-code-config
+    tags: [claude-code, config]
+    status: active
+
+  # MCP Servers
+  - org: frankxai
+    name: arcanea-infogenius
+    url: https://github.com/frankxai/arcanea-infogenius
+    tags: [mcp, research, images, gemini]
+    status: active
+    
+  - org: frankxai
+    name: mcp-doctor
+    url: https://github.com/frankxai/mcp-doctor
+    tags: [mcp, debugging, tooling]
+    status: active
+    
+  - org: frankxai
+    name: lyric-genius-mcp-server
+    url: https://github.com/frankxai/lyric-genius-mcp-server
+    tags: [mcp, music]
+    status: active
+
+  # Content & Education
+  - org: frankxai
+    name: ai-architect-academy
+    url: https://github.com/frankxai/ai-architect-academy
+    tags: [education, ai-architecture, course]
+    status: active
+    
+  - org: frankxai
+    name: ai-workshop-for-students
+    url: https://github.com/frankxai/ai-workshop-for-students
+    tags: [education, workshop]
+    status: active
+    
+  - org: frankxai
+    name: ai-music-academy
+    url: https://github.com/frankxai/ai-music-academy
+    tags: [education, music, ai]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-marketplace
+    url: https://github.com/frankxai/arcanea-marketplace
+    tags: [marketplace, plugins]
+    status: active
+
+  # Web & Frontend
+  - org: frankxai
+    name: frankx-website
+    url: https://github.com/frankxai/frankx-website
+    tags: [website, nextjs, brand]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-ai-app
+    url: https://github.com/frankxai/arcanea-ai-app
+    tags: [webapp, ai]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-vault
+    url: https://github.com/frankxai/arcanea-vault
+    tags: [extension, chrome, ai-tools]
+    status: active
+    
+  - org: frankxai
+    name: ux-design
+    url: https://github.com/frankxai/ux-design
+    tags: [design, ux]
+    status: active
+    visibility: private
+
+  # AI & Research
+  - org: frankxai
+    name: production-agent-patterns
+    url: https://github.com/frankxai/production-agent-patterns
+    tags: [ai, patterns, architecture]
+    status: active
+    
+  - org: frankxai
+    name: ai-ops
+    url: https://github.com/frankxai/ai-ops
+    tags: [aiops, platform]
+    status: active
+    
+  - org: frankxai
+    name: ai-coe-content-creation
+    url: https://github.com/frankxai/ai-coe-content-creation
+    tags: [content, ai]
+    status: active
+    
+  - org: frankxai
+    name: ai-and-web3
+    url: https://github.com/frankxai/ai-and-web3
+    tags: [ai, web3]
+    status: active
+
+  # Audio & Music
+  - org: frankxai
+    name: vibe-os
+    url: https://github.com/frankxai/vibe-os
+    tags: [audio, music, healing]
+    status: active
+    
+  - org: frankxai
+    name: claude-code-music-production
+    url: https://github.com/frankxai/claude-code-music-production
+    tags: [music, claude-code]
+    status: active
+
+  # Prompt Engineering
+  - org: frankxai
+    name: arcanea-prompt-language
+    url: https://github.com/frankxai/arcanea-prompt-language
+    tags: [prompts, apl, luminor]
+    status: active
+
+  # Utilities & Templates
+  - org: frankxai
+    name: codex-arcanea
+    url: https://github.com/frankxai/codex-arcanea
+    tags: [documentation]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-codex
+    url: https://github.com/frankxai/arcanea-codex
+    tags: [documentation]
+    status: active
+    
+  - org: frankxai
+    name: arcanea-library
+    url: https://github.com/frankxai/arcanea-library
+    tags: [knowledge, library]
+    status: active
+
+  # Forked/Referenced Projects
+  - org: frankxai
+    name: arcanea-flow
+    url: https://github.com/frankxai/arcanea-flow
+    tags: [fork, orchestration]
+    isFork: true
+    
+  - org: frankxai
+    name: agents
+    url: https://github.com/frankxai/agents
+    tags: [fork, orchestration]
+    isFork: true
+    
+  - org: frankxai
+    name: awesome-claude-code
+    url: https://github.com/frankxai/awesome-claude-code
+    tags: [fork, resources]
+    isFork: true
+    
+  - org: frankxai
+    name: awesome-claude-code-subagents
+    url: https://github.com/frankxai/awesome-claude-code-subagents
+    tags: [fork, resources]
+    isFork: true
+    
+  - org: frankxai
+    name: arcanea-code
+    url: https://github.com/frankxai/arcanea-code
+    tags: [fork]
+    isFork: true
+    
+  - org: frankxai
+    name: oh-my-arcanea
+    url: https://github.com/frankxai/oh-my-arcanea
+    tags: [fork]
+    isFork: true
+    
+  - org: frankxai
+    name: knowledge-work-plugins
+    url: https://github.com/frankxai/knowledge-work-plugins
+    tags: [fork, plugins]
+    isFork: true
+
+  # Private/Archived
+  - org: frankxai
+    name: FrankX
+    url: https://github.com/frankxai/FrankX
+    tags: [core]
+    status: active
+    visibility: private
+    
+  - org: frankxai
+    name: frankxai
+    url: https://github.com/frankxai/frankxai
+    tags: [main]
+    status: active
+    
+  - org: frankxai
+    name: oracle-work
+    url: https://github.com/frankxai/oracle-work
+    tags: [content, private]
+    status: active
+    visibility: private
+    
+  - org: frankxai
+    name: frankx-logs
+    url: https://github.com/frankxai/frankx-logs
+    tags: [logs, tracking]
+    status: active
+    
+  - org: frankxai
+    name: trinity-platform
+    url: https://github.com/frankxai/trinity-platform
+    tags: [platform]
+    status: active
+    visibility: private
+    
+  - org: frankxai
+    name: aiarchitectacademy
+    url: https://github.com/frankxai/aiarchitectacademy
+    status: active
+    visibility: private
+    
+  - org: frankxai
+    name: notion-powered-blog
+    url: https://github.com/frankxai/notion-powered-blog
+    status: active
+    visibility: private
+
+  # Deprecated/Moved
+  - org: frankxai
+    name: claude-code-oracle-skills
+    url: https://github.com/frankxai/claude-code-oracle-skills
+    tags: [moved]
+    note: "MOVED → oci-ai-architects"
+    
+  - org: frankxai
+    name: oracle-genai-guides
+    url: https://github.com/frankxai/oracle-genai-guides
+    tags: [moved]
+    note: "MOVED → oci-ai-architects"
+    
+  - org: frankxai
+    name: ai-architect
+    url: https://github.com/frankxai/ai-architect
+    tags: [moved]
+    note: "MOVED → oci-ai-architects"
+    
+  - org: frankxai
+    name: oci-ai-architect
+    url: https://github.com/frankxai/oci-ai-architect
+    tags: [moved]
+    note: "MOVED → oci-ai-architects"
+
+  # ============================================================================
+  # AI-ARCHITECT-ACADEMY ORGANIZATION - https://github.com/ai-architect-academy
+  # ============================================================================
+  
+  - org: ai-architect-academy
+    name: ai-architect-academy
+    url: https://github.com/AI-Architect-Academy/ai-architect-academy
+    tags: [education, course]
+    status: active
+    visibility: private
+    
+  - org: ai-architect-academy
+    name: saas-ai-architect-academy
+    url: https://github.com/AI-Architect-Academy/saas-ai-architect-academy
+    tags: [education, saas]
+    status: active
+    visibility: private
+    
+  - org: ai-architect-academy
+    name: internal-ai-architect-academy-course-content
+    url: https://github.com/AI-Architect-Academy/internal-ai-architect-academy-course-content
+    tags: [education, content]
+    status: active
+    visibility: private
+
+  # ============================================================================
+  # ARCANEA-LABS ORGANIZATION - https://github.com/Arcanea-Labs
+  # ============================================================================
+  
+  - org: arcanea-labs
+    name: Arcanea
+    url: https://github.com/Arcanea-Labs/Arcanea
+    tags: [core, platform]
+    status: active
+    
+  - org: arcanea-labs
+    name: Starlight-Intelligence-System
+    url: https://github.com/Arcanea-Labs/Starlight-Intelligence-System
+    tags: [ai-agents, memory]
+    status: active
+    
+  - org: arcanea-labs
+    name: arcanea-plugins
+    url: https://github.com/Arcanea-Labs/arcanea-plugins
+    tags: [plugins]
+    status: active
+    
+  - org: arcanea-labs
+    name: Arcanean-Home
+    url: https://github.com/Arcanea-Labs/Arcanean-Home
+    status: active
+
+  # ============================================================================
+  # OCI-AI-ARCHITECTS ORGANIZATION - https://github.com/oci-ai-architects
+  # ============================================================================
+  
+  - org: oci-ai-architects
+    name: claude-code-oci-ai-architect-skills
+    url: https://github.com/oci-ai-architects/claude-code-oci-ai-architect-skills
+    tags: [claude-code, oracle, skills]
+    status: active
+    
+  - org: oci-ai-architects
+    name: oci-one-click-stacks
+    url: https://github.com/oci-ai-architects/oci-one-click-stacks
+    tags: [terraform, oracle, infrastructure]
+    status: active
+    
+  - org: oci-ai-architects
+    name: openclaw-on-oci
+    url: https://github.com/oci-ai-architects/openclaw-on-oci
+    tags: [oracle, deployment, openclaw]
+    status: active
+    
+  - org: oci-ai-architects
+    name: cline-oci-ai-engineer
+    url: https://github.com/oci-ai-architects/cline-oci-ai-engineer
+    tags: [cline, oracle, ai-engineer]
+    status: active
+    
+  - org: oci-ai-architects
+    name: cline-oci-ai-architect-skills
+    url: https://github.com/oci-ai-architects/cline-oci-ai-architect-skills
+    tags: [cline, oracle, skills]
+    status: active
+    
+  - org: oci-ai-architects
+    name: oci-ai-architect
+    url: https://github.com/oci-ai-architects/oci-ai-architect
+    tags: [oracle, architecture]
+    status: active
+    
+  - org: oci-ai-architects
+    name: oci-genai-guides
+    url: https://github.com/oci-ai-architects/oci-genai-guides
+    tags: [oracle, genai, guides]
+    status: active
+    
+  - org: oci-ai-architects
+    name: multi-cloud-ai-architect
+    url: https://github.com/oci-ai-architects/multi-cloud-ai-architect
+    tags: [multi-cloud, architecture]
+    status: active
+    
+  - org: oci-ai-architects
+    name: invoice-oci
+    url: https://github.com/oci-ai-architects/invoice-oci
+    tags: [oracle, document-understanding]
+    status: active

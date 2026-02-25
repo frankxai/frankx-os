@@ -1,0 +1,64 @@
+planning_documents:
+  # ============================================================================
+  # ARCANEA REPO - /mnt/c/Users/Frank/Arcanea/
+  # ============================================================================
+  
+  - repo: arcanea
+    path: /mnt/c/Users/Frank/Arcanea/
+    files:
+      - name: ACADEMY_IMPLEMENTATION_PLAN.md
+        description: Academy launch plan
+      - name: ARCANEA_ACTION_PLAN.md
+        description: Action items and roadmap
+      - name: ARCANEA_CLAUDE_CODE_NATIVE_STRATEGY.md
+        description: Claude Code native integration strategy
+      - name: ARCANEA_COMPREHENSIVE_AUDIT_2026-01-14.md
+        description: Full audit report Jan 2026
+      - name: ARCANEA_CONTENT_POLISH_GUIDE.md
+        description: Content polish workflow
+      - name: ARCANEA_DESIGN_SYSTEM_MARKETPLACE_STRATEGY.md
+        description: Design marketplace strategy
+      - name: ARCANEA_ECOSYSTEM_STATUS.md
+        description: Current ecosystem status
+      - name: ARCANEA_FINAL_ARCHITECTURE.md
+        description: Final architecture document
+      - name: ARCANEA_KNOWLEDGE_BASE.md
+        description: Knowledge base structure
+      - name: ARCANEA_TECHNOLOGY_VISION_ROADMAP.md
+        description: Technology roadmap
+      - name: ARCANEA_STRATEGIC_SUMMARY.md
+        description: Strategic overview
+
+  # ============================================================================
+  # FRANKX REPO - /mnt/c/Users/Frank/FrankX/
+  # ============================================================================
+  
+  - repo: frankx
+    path: /mnt/c/Users/Frank/FrankX/
+    files:
+      - name: BRANCH_STRATEGY_AND_ACTION_PLAN.md
+        description: Branch strategy
+      - name: BRAND_IDENTITY.md
+        description: Brand guidelines
+      - name: BRAND_IDENTITY_IMPLEMENTATION_PLAN.md
+        description: Brand implementation
+      - name: AGENT_TEAM_POSITIONING.md
+        description: Agent team structure
+      - name: BEST-CMS-OPTIONS-FOR-FRANKX.md
+        description: CMS selection analysis
+      - name: BLOG_IMPROVEMENTS_2026-01-14.md
+        description: Blog improvements
+
+  # ============================================================================
+  # ORACLE WORK - /mnt/c/Users/Frank/oracle-work/
+  # ============================================================================
+  
+  - repo: oracle-work
+    path: /mnt/c/Users/Frank/oracle-work/
+    files:
+      - name: ai-coe-patterns.md
+        description: AI CoE patterns
+      - name: clinical-diagnostic-ai.md
+        description: Clinical AI patterns
+      - name: db-migration.html
+        description: Database migration plan

@@ -1,0 +1,24 @@
+boilerplates:
+  - name: nextjs-starter
+    description: Next.js starter with TypeScript and Tailwind
+    tags: [nextjs, typescript, tailwind]
+    status: reference
+    
+  - name: ai-agent-template
+    description: Template for building AI agents
+    tags: [ai, agents, typescript]
+    status: reference
+    
+  - name: mcp-server-template
+    description: Template for MCP server development
+    tags: [mcp, typescript, node]
+    status: reference
+
+design_systems:
+  - name: arcanea-ui
+    description: Arcanea component library
+    status: planned
+    
+  - name: frankx-brand
+    description: FrankX brand assets and guidelines
+    status: active

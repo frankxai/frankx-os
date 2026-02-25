@@ -1,0 +1,45 @@
+quarter: 2026-Q1
+start_date: 2026-01-01
+end_date: 2026-03-31
+
+status: active
+
+priorities:
+  - name: Arcanea Platform Launch
+    description: Complete MVP development and internal testing
+    owner: frank
+    status: in_progress
+    tasks:
+      - Complete web app core features
+      - Deploy MCP server
+      - Integrate AI agents
+      - Set up CI/CD
+
+  - name: FrankX Website Enhancement
+    description: Improve website and content delivery
+    owner: frank
+    status: in_progress
+    
+  - name: AI Architect Academy Growth
+    description: Expand course content and reach
+    owner: frank
+    status: planned
+
+sprint_weeks:
+  - week: 1-4
+    focus: Platform Foundation
+    goals:
+      - Core platform infrastructure
+      - Agent integration
+    
+  - week: 5-8
+    focus: Feature Development
+    goals:
+      - User features
+      - Content management
+    
+  - week: 9-12
+    focus: Launch Prep
+    goals:
+      - Beta testing
+      - Documentation

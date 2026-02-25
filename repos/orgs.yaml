@@ -1,0 +1,33 @@
+orgs:
+  - name: frankxai
+    github: https://github.com/frankxai
+    description: Main organization - AI-powered creative platforms
+    repos_count: 100+
+    projects:
+      - arcanea
+      - starlight
+      - frankx
+      - ai-architect-academy
+      - ai-music-academy
+
+  - name: ai-architect-academy
+    github: https://github.com/ai-architect-academy
+    description: AI Architecture education and certification
+    repos_count: 3
+    projects:
+      - ai-architect-academy
+
+  - name: arcanea-labs
+    github: https://github.com/Arcanea-Labs
+    description: Arcanea open source projects
+    repos_count: 6
+    projects:
+      - arcanea
+
+  - name: oci-ai-architects
+    github: https://github.com/oci-ai-architects
+    description: Oracle Cloud Infrastructure AI Architects community
+    repos_count: 12
+    projects:
+      - oracle-skills
+      - multi-cloud-architect

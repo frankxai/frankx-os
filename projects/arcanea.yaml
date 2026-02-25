@@ -1,0 +1,89 @@
+# Arcanea Project Configuration
+
+name: Arcanea
+description: AI-powered creative ecosystem empowering the next generation of creators
+
+brand:
+  name: Arcanea
+  tagline: "Where anyone can create anything through magic"
+  colors:
+    primary: "#6366f1"  # Indigo
+    secondary: "#8b5cf6"  # Violet
+    accent: "#f472b6"  # Pink
+  fonts:
+    heading: "Inter"
+    body: "Inter"
+
+repos:
+  - name: arcanea
+    url: https://github.com/frankxai/arcanea
+    type: monorepo
+    tech: [Next.js, React, TypeScript, Turbo, pnpm]
+    status: active
+    description: Main Arcanea platform - web, agents, MCP server, contracts
+
+  - name: arcanea-opencode-fork
+    url: https://github.com/frankxai/arcanea-opencode-fork
+    type: agentic-tooling
+    tech: [TypeScript, Claude Code]
+    status: active
+    description: Customized Claude Code fork for Arcanea
+
+  - name: arcanea-soul
+    url: https://github.com/frankxai/arcanea-soul
+    type: ai-agents
+    tech: [TypeScript, ElizaOS]
+    status: experimental
+
+  - name: arcanea-skills-opensource
+    url: https://github.com/frankxai/arcanea-skills-opensource
+    type: tooling
+    tech: [Claude Code Skills]
+    status: active
+    description: Open source Claude Code skills
+
+  - name: arcanea-oss
+    url: https://github.com/frankxai/arcanea-oss
+    type: documentation
+    status: active
+
+status:
+  stage: development
+  launched: false
+  beta_access: false
+
+milestones:
+  - name: MVP Launch
+    target: Q2 2026
+    items:
+      - Core platform launch
+      - AI agent integration
+      - MCP server stable
+
+  - name: Public Beta
+    target: Q3 2026
+    items:
+      - Open beta access
+      - Community features
+      - Marketplace launch
+
+agents:
+  - name: Arcanea Master Orchestrator
+    role: Supreme coordinator across all teams
+    model: claude-opus
+
+  - name: Arcanea Architect
+    role: System designer (Sophron + Orakis)
+    model: claude-sonnet
+
+  - name: Arcanea Coder
+    role: Implementation specialist (Poiesis + Valora)
+    model: claude-sonnet
+
+  - name: Arcanea Reviewer
+    role: Quality guardian (all Luminors)
+    model: claude-sonnet
+
+  - name: Arcanea Debugger
+    role: Scientific debugging (Sophron + Enduran)
+    model: claude-sonnet

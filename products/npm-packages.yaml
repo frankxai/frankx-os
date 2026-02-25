@@ -1,0 +1,20 @@
+packages:
+  - name: "@arcanea/ai-agents"
+    description: ElizaOS AI agents for NFT holders
+    status: development
+    repo: frankxai/arcanea
+    
+  - name: "@arcanea/mcp-server"
+    description: Model Context Protocol server
+    status: development
+    repo: frankxai/arcanea
+    
+  - name: "@arcanea/core"
+    description: Core utilities and shared code
+    status: planned
+    
+  - name: "nanobanana-mcp-server"
+    description: Image generation MCP server
+    status: active
+    repo: frankxai/nanobanana
+    npm: https://www.npmjs.com/package/nanobanana-mcp-server

@@ -1,0 +1,43 @@
+swarms:
+  - name: content-creation-swarm
+    description: Generates blog posts, social media, and marketing content
+    agents:
+      - name: researcher
+        role: Gather information and validate
+      - name: writer
+        role: Create content
+      - name: editor
+        role: Polish and refine
+      
+  - name: code-generation-swarm
+    description: Builds and ships features
+    agents:
+      - name: architect
+        role: Design solution
+      - name: coder
+        role: Implement
+      - name: reviewer
+        role: Quality check
+        
+  - name: research-swarm
+    description: Deep research and analysis
+    agents:
+      - name: primary-researcher
+        role: Main research
+      - name: fact-checker
+        role: Validate information
+      - name: synthesizer
+        role: Compile findings
+
+orchestration_patterns:
+  - name: sequential
+    description: One agent passes to next
+    
+  - name: parallel
+    description: Multiple agents work simultaneously
+    
+  - name: hierarchical
+    description: Manager delegates to workers
+    
+  - name: consensus
+    description: Multiple agents vote on outcome

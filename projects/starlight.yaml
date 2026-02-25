@@ -1,0 +1,20 @@
+name: Starlight
+description: Enterprise AI System Designer and orchestrator
+
+repos:
+  - name: starlight-intelligence
+    url: https://github.com/frankxai/starlight-intelligence
+    type: ai-orchestration
+    tech: [TypeScript, AI Agents]
+    status: active
+    description: Strategic AI orchestration and purpose-driven system design
+
+agents:
+  - name: Starlight Orchestrator
+    role: Meta-intelligence for multi-agent coordination
+    model: claude-opus
+
+  - name: Starlight Architect
+    role: Enterprise AI System Designer
+    model: claude-opus
+    description: Oracle Architecture Expert & Brand DNA Guardian

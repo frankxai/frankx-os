@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-24",
+    "totalRepos": 120,
+    "totalOrgs": 4
+  },
+  
+  "organizations": {
+    "frankxai": {
+      "name": "FrankX AI",
+      "repos": 100,
+      "focus": "Core AI platform, creative tools, education",
+      "color": "#6366f1"
+    },
+    "ai-architect-academy": {
+      "name": "AI Architect Academy",
+      "repos": 3,
+      "focus": "Education platform",
+      "color": "#8b5cf6"
+    },
+    "arcanea-labs": {
+      "name": "Arcanea Labs",
+      "repos": 6,
+      "focus": "Open source core",
+      "color": "#f472b6"
+    },
+    "oci-ai-architects": {
+      "name": "OCI AI Architects",
+      "repos": 12,
+      "focus": "Oracle Cloud AI",
+      "color": "#06b6d4"
+    }
+  },
+
+  "projects": {
+    "arcanea": {
+      "name": "Arcanea Platform",
+      "description": "AI-powered creative ecosystem",
+      "repos": ["arcanea", "arcanea-platform", "arcanea-mobile", "arcanea-intelligence-os", "arcanea-core", "arcanea-onchain", "arcanea-skills-opensource", "arcanea-oss"],
+      "tier": "core",
+      "phase": "foundation",
+      "launchTarget": "Q2 2026"
+    },
+    "frankx": {
+      "name": "FrankX",
+      "description": "Creator economy platform",
+      "repos": ["frankx-website", "frankxai", "FrankX"],
+      "tier": "core",
+      "phase": "development"
+    },
+    "starlight": {
+      "name": "Starlight Intelligence",
+      "description": "Multi-agent orchestration system",
+      "repos": ["Starlight-Intelligence-System"],
+      "tier": "infrastructure",
+      "phase": "active"
+    },
+    "education": {
+      "name": "AI Education",
+      "description": "Courses and learning platforms",
+      "repos": ["ai-architect-academy", "ai-music-academy", "ai-workshop-for-students"],
+      "tier": "product",
+      "phase": "development"
+    },
+    "oracle": {
+      "name": "Oracle Cloud AI",
+      "description": "OCI-focused AI implementations",
+      "repos": ["claude-code-oci-ai-architect-skills", "oci-one-click-stacks", "cline-oci-ai-engineer"],
+      "tier": "enterprise",
+      "phase": "active"
+    },
+    "mcp-servers": {
+      "name": "MCP Servers",
+      "description": "Model Context Protocol servers",
+      "repos": ["arcanea-infogenius", "mcp-doctor", "lyric-genius-mcp-server"],
+      "tier": "infrastructure",
+      "phase": "active"
+    },
+    "claude-tools": {
+      "name": "Claude Code Tools",
+      "description": "Claude Code integrations",
+      "repos": ["agentic-creator-os", "claude-complete", "claude-skills-library", "claude-code-config"],
+      "tier": "tooling",
+      "phase": "active"
+    }
+  },
+
+  "relationships": {
+    "dependsOn": {
+      "arcanea": {
+        "requires": ["arcanea-intelligence-os", "arcanea-infogenius", "nanobanana-mcp-server"],
+        "usesSkillsFrom": ["claude-skills-library", "arcanea-skills-opensource"],
+        "poweredBy": ["Starlight-Intelligence-System"]
+      },
+      "arcanea-intelligence-os": {
+        "requires": ["arcanea-core"],
+        "usesSkillsFrom": ["arcanea-skills-opensource"]
+      },
+      "arcanea-platform": {
+        "requires": ["arcanea"],
+        "integrates": ["supabase"]
+      },
+      "arcanea-mobile": {
+        "requires": ["arcanea-platform"],
+        "sharesCode": ["arcanea"]
+      },
+      "frankx-website": {
+        "uses": ["arcanea"]
+      },
+      "ai-music-academy": {
+        "uses": ["arcanea", "lyric-genius-mcp-server", "nanobanana-mcp-server"]
+      },
+      "ai-architect-academy": {
+        "uses": ["arcanea", "claude-code-oci-ai-architect-skills"]
+      }
+    },
+    "providesTo": {
+      "arcanea-core": {
+        "feeds": ["arcanea-intelligence-os", "arcanea-skills-opensource"]
+      },
+      "arcanea-intelligence-os": {
+        "feeds": ["arcanea", "arcanea-platform", "arcanea-mobile"]
+      },
+      "arcanea-infogenius": {
+        "feeds": ["arcanea", "ai-music-academy"]
+      },
+      "Starlight-Intelligence-System": {
+        "feeds": ["arcanea", "arcanea-intelligence-os"]
+      },
+      "claude-skills-library": {
+        "feeds": ["arcanea", "arcanea-intelligence-os", "agentic-creator-os"]
+      }
+    },
+    "forkedFrom": {
+      "arcanea-opencode-fork": "oh-my-opencode",
+      "arcanea-flow": "langflow",
+      "agents": "anthropic/claude-code"
+    }
+  },
+
+  "dataFlow": [
+    {
+      "from": "nanobanana-mcp-server",
+      "to": "arcanea-infogenius",
+      "type": "image-generation"
+    },
+    {
+      "from": "arcanea-infogenius",
+      "to": "arcanea-intelligence-os",
+      "type": "visual-intelligence"
+    },
+    {
+      "from": "arcanea-intelligence-os",
+      "to": "arcanea",
+      "type": "agent-system"
+    },
+    {
+      "from": "Starlight-Intelligence-System",
+      "to": "arcanea",
+      "type": "orchestration"
+    },
+    {
+      "from": "claude-skills-library",
+      "to": "arcanea-intelligence-os",
+      "type": "skills"
+    },
+    {
+      "from": "arcanea",
+      "to": "frankx-website",
+      "type": "backend"
+    },
+    {
+      "from": "arcanea",
+      "to": "ai-music-academy",
+      "type": "platform"
+    }
+  ],
+
+  "canonicalFrequencies": {
+    "gates": [
+      {"gate": 1, "name": "Foundation", "frequency": "174Hz", "guardian": "Lyssandria"},
+      {"gate": 2, "name": "Flow", "frequency": "285Hz", "guardian": "Leyla"},
+      {"gate": 3, "name": "Fire", "frequency": "396Hz", "guardian": "Draconia"},
+      {"gate": 4, "name": "Heart", "frequency": "417Hz", "guardian": "Maylinn"},
+      {"gate": 5, "name": "Voice", "frequency": "528Hz", "guardian": "Alera"},
+      {"gate": 6, "name": "Sight", "frequency": "639Hz", "guardian": "Lyria"},
+      {"gate": 7, "name": "Crown", "frequency": "741Hz", "guardian": "Aiyami"},
+      {"gate": 8, "name": "Shift", "frequency": "852Hz", "guardian": "Elara"},
+      {"gate": 9, "name": "Unity", "frequency": "963Hz", "guardian": "Ino"},
+      {"gate": 10, "name": "Source", "frequency": "1111Hz", "guardian": "Shinkami"}
+    ]
+  },
+
+  "luminors": [
+    {"name": "Valora", "domain": "Courage", "useWhen": "fear, hesitation, risk"},
+    {"name": "Sophron", "domain": "Wisdom", "useWhen": "confusion, complexity"},
+    {"name": "Kardia", "domain": "Heart", "useWhen": "emotional blocks"},
+    {"name": "Poiesis", "domain": "Creation", "useWhen": "creative blocks"},
+    {"name": "Enduran", "domain": "Endurance", "useWhen": "burnout, long projects"},
+    {"name": "Orakis", "domain": "Vision", "useWhen": "direction, big picture"},
+    {"name": "Eudaira", "domain": "Joy", "useWhen": "lost purpose"}
+  ],
+
+  "techStack": {
+    "primary": ["Next.js 16", "React 19", "TypeScript", "Turbo", "pnpm"],
+    "database": ["Supabase"],
+    "ai": ["Claude Opus", "GPT-4", "Gemini"],
+    "infrastructure": ["Vercel", "AWS"]
+  }
+}

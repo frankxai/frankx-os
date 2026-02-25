@@ -1,0 +1,17 @@
+name: AI Architect Academy
+description: Enterprise AI architecture education and certification
+
+repos:
+  - name: ai-architect-academy
+    url: https://github.com/ai-architect-academy/ai-architect-academy
+    type: education
+    tech: [Next.js, MDX]
+    status: active
+    description: AI architecture learning platform
+
+content:
+  - courses:
+      - AI Agent Systems
+      - MCP Server Development
+      - Multi-Agent Orchestration
+      - Enterprise AI Patterns
