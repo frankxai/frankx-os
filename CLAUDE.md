@@ -18,17 +18,20 @@ frankx-os/
 
 ## Key Files
 
-- `repos/index.yaml` - All 120+ repos across 4 organizations
+- `repos/index.yaml` - Repository index (360 repos as of 2026-08-15; see empire/STRATEGY.md)
 - `projects/arcanea-roadmap.md` - Arcanea milestones & targets
 - `sprints/2026-Q1.md` - Current sprint tracking
 - `planning/content-summary.md` - Consolidated strategy
 
-## Organizations Tracked
+## Repository Ownership (2026-08-15)
 
-1. **frankxai** (~100 repos) - Core AI platform
-2. **ai-architect-academy** (3 repos) - Education
-3. **arcanea-labs** (6 repos) - Open source
-4. **oci-ai-architects** (12 repos) - Oracle Cloud
+**frankxai account:** 360 repositories, 0 organization memberships (as of 2026-08-15 via GitHub API)
+
+**Previous stale claim:** "120+ repos across 4 organizations" (ai-architect-academy, arcanea-labs, oci-ai-architects)
+
+**Full private inventory:** Documented in `frankxai/frankx-starlight-command` under `empire/`
+
+**Public-safe map:** See `empire/STRATEGY.md` in this repo
 
 ## For Agents
 

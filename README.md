@@ -6,7 +6,19 @@
 
 ## Overview
 
-FrankX OS is the operational brain for managing 120+ repositories across 4 GitHub organizations, tracking projects, sprints, products, and the strategic vision.
+FrankX OS is the operational brain for managing projects, sprints, products, and the strategic vision across the FrankX/Arcanea ecosystem.
+
+**Repository Reality (as of 2026-08-15):** The frankxai GitHub account owns 360 repositories with 0 organization memberships. Previous claims of "120+ repos across 4 orgs" were outdated. See [Empire Map](#empire-map-2026-08-15) below for details.
+
+---
+
+## Empire Map (2026-08-15)
+
+The **[empire/](empire/)** folder contains the public-safe operating map: 6-product canon, graveyard rules, and strategic leverage actions.
+
+**Full private inventory** (all 360 repositories, internal product surfaces, operational details) lives in **`frankxai/frankx-starlight-command`** under `empire/`.
+
+👉 **Read the strategy:** [empire/STRATEGY.md](empire/STRATEGY.md)
 
 ---
 
@@ -58,13 +70,10 @@ frankx-os/
 
 ## Quick Reference
 
-### Organizations Tracked
-| Org | Repos | Focus |
-|-----|-------|-------|
-| frankxai | ~100 | Core platform |
-| ai-architect-academy | 3 | Education |
-| arcanea-labs | 6 | Open source |
-| oci-ai-architects | 12 | Oracle Cloud |
+### Repository Ownership (2026-08-15)
+- **frankxai account:** 360 repositories
+- **Organization memberships:** 0 (as of 2026-08-15 via GitHub API)
+- **Full inventory:** Documented in `frankxai/frankx-starlight-command` (private)
 
 ### Key Metrics (2026)
 - **Beta Launch**: March 2026
