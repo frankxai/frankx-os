@@ -1,8 +1,8 @@
 # FrankX OS - Project Management System
 
-> **⚠️ NOTICE:** This repo is a leftover PM/OS stub (last updated Feb 2026) and is NOT the fleet control plane or desktop cockpit. Config plane: [frankxai/agentic-ops-hub](https://github.com/frankxai/agentic-ops-hub). Desktop cockpit: [frankxai/starlight-command-center](https://github.com/frankxai/starlight-command-center).
+> **⚠️ DEPRECATION NOTICE:** This repo is a stale PM/OS stub. The live map is [frankxai/frankx-starlight-command](https://github.com/frankxai/frankx-starlight-command). The live control plane is [frankxai/agentic-ops-hub](https://github.com/frankxai/agentic-ops-hub) (config) plus [frankxai/starlight-command-center](https://github.com/frankxai/starlight-command-center) (desktop cockpit).
 
-> Centralized hub for all FrankX, Arcanea, and related projects
+> Former centralized hub for FrankX, Arcanea, and related projects
 
 ---
 
